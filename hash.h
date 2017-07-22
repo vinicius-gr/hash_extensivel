@@ -2,21 +2,24 @@
 #include <stdlib.h>
 #include <math.h>
 
-typedef struct
-{
-
-}bucket;
+#define N_INICIAL 4
 
 typedef struct
 {
-    bucket *buque;
+    int depth;
+    int key;
+}pagina;
+
+typedef struct
+{
     int global_depth;
-}index;
+    pagina *header;
+}diretorio;
 
-index index_hash;
+diretorio *diretorio_hash;
 
-//===========================================//
+//======================================================//
 
-int funcao_hash (int k);
-index *hsearch (int k);
+int function_hash (int k);
+pagina *hsearch (int k);
 int hinsert (int *k);

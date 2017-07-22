@@ -35,6 +35,9 @@
 		<Unit filename="include.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="inicializacao.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

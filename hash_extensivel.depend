@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1500727974 source:c:\users\vinicius\documents\github\hash_extensivel\include.c
+	"hash.h"
+
+1500647672 source:c:\users\vinicius\documents\github\hash_extensivel\main.c
+	"hash.h"
+
+1500729226 c:\users\vinicius\documents\github\hash_extensivel\hash.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1500727994 source:c:\users\vinicius\documents\github\hash_extensivel\inicializacao.c
+	"hash.h"
+
